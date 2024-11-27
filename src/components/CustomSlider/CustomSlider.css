@@ -1,0 +1,10 @@
+/* Estiliza o slide ativo (central) */
+.swiper-slide-active {
+  transition: border 0.3s ease-in-out !important; /* Transição suave na borda */
+}
+
+/* Estiliza os slides vizinhos (anterior e próximo) */
+.swiper-slide-prev,
+.swiper-slide-next {
+  transition: border 0.3s ease-in-out !important; /* Transição suave na borda */
+}

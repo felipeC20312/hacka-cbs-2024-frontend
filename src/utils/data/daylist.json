@@ -1,0 +1,32 @@
+{
+  "days": [
+    {
+      "icon": "CloudHail",
+      "date": "06.out."
+    },
+    {
+      "icon": "Tornado",
+      "date": "07.out."
+    },
+    {
+      "icon": "Bug",
+      "date": "08.out."
+    },
+    {
+      "icon": "Flame",
+      "date": "09.out."
+    },
+    {
+      "icon": "CloudHail",
+      "date": "10.out."
+    },
+    {
+      "icon": "Tornado",
+      "date": "11.out."
+    },
+    {
+      "icon": "Bug",
+      "date": "12.out."
+    }
+  ]
+}

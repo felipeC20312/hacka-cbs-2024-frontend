@@ -1,0 +1,259 @@
+{
+  "state": "Goiânia",
+  "plantation": "Soybean",
+  "days": [
+    {
+      "data": "06.Oct.",
+      "dicks": [
+        {
+          "title": "Minimal Irrigation Needed",
+          "icon": "Droplet",
+          "description": "Light rain, little need for additional irrigation."
+        },
+        {
+          "title": "Check Soil Moisture",
+          "icon": "Sprout",
+          "description": "Monitor soil moisture to prevent overwatering."
+        },
+        {
+          "title": "Stable Weather Conditions",
+          "icon": "Sun",
+          "description": "The weather is stable with no expected changes."
+        }
+      ],
+      "duracao": "06.Oct. to 07.Oct.",
+      "icon": "CloudHail",
+      "status": "Light Rain"
+    },
+    {
+      "data": "07.Oct.",
+      "dicks": [
+        {
+          "title": "Increase Irrigation",
+          "icon": "Droplet",
+          "description": "No rain expected, increase irrigation."
+        },
+        {
+          "title": "Check Wind Conditions",
+          "icon": "Wind",
+          "description": "Monitor strong winds that could affect crops."
+        },
+        {
+          "title": "Plant Maintenance",
+          "icon": "Wrench",
+          "description": "Time to perform maintenance on the irrigation system."
+        }
+      ],
+      "duracao": "07.Oct. to 08.Oct.",
+      "icon": "ThermometerSun",
+      "status": "Dry Weather"
+    },
+    {
+      "data": "08.Oct.",
+      "dicks": [
+        {
+          "title": "Watch for Pests",
+          "icon": "Bug",
+          "description": "Monitor for pests that may appear with dry weather."
+        },
+        {
+          "title": "Ensure Continuous Irrigation",
+          "icon": "Droplet",
+          "description": "Maintain irrigation to keep soil moisture balanced."
+        },
+        {
+          "title": "Apply Pest Protection",
+          "icon": "Shield",
+          "description": "Use pest control for young plants."
+        }
+      ],
+      "duracao": "08.Oct. to 09.Oct.",
+      "icon": "Bug",
+      "status": "Pest Monitoring"
+    },
+    {
+      "data": "09.Oct.",
+      "dicks": [
+        {
+          "title": "Possible Typhoon",
+          "icon": "Tornado",
+          "description": "Possible typhoon on October 9th. Protect your crops!"
+        },
+        {
+          "title": "Check Sprouts",
+          "icon": "Sprout",
+          "description": "Heavy rain can damage sprouts. Monitor them closely."
+        },
+        {
+          "title": "15 Days Until End of Rain",
+          "icon": "CalendarCheck2",
+          "description": "After the heavy rains, you will have better conditions."
+        }
+      ],
+      "duracao": "09.Oct. to 10.Oct.",
+      "icon": "Tornado",
+      "status": "Typhoon"
+    },
+    {
+      "data": "10.Oct.",
+      "dicks": [
+        {
+          "title": "Check Soil Moisture",
+          "icon": "Droplet",
+          "description": "No rain expected, check if irrigation is needed."
+        },
+        {
+          "title": "Monitor Climate Changes",
+          "icon": "Sun",
+          "description": "Check for any sudden weather changes."
+        },
+        {
+          "title": "Watch for Pests",
+          "icon": "Bug",
+          "description": "Pests may appear due to dry conditions."
+        }
+      ],
+      "duracao": "10.Oct. to 11.Oct.",
+      "icon": "Flame",
+      "status": "Forest Fires"
+    },
+    {
+      "data": "11.Oct.",
+      "dicks": [
+        {
+          "title": "Storm Protection",
+          "icon": "ShieldAlert",
+          "description": "Heavy rain expected, protect crops from damage."
+        },
+        {
+          "title": "Monitor Wind Strength",
+          "icon": "Wind",
+          "description": "Check wind strength to prevent crop damage."
+        },
+        {
+          "title": "Ensure Proper Drainage",
+          "icon": "Droplet",
+          "description": "Ensure the drainage system is functioning properly."
+        }
+      ],
+      "duracao": "11.Oct. to 12.Oct.",
+      "icon": "CloudLightning",
+      "status": "Stormy Weather"
+    },
+    {
+      "data": "12.Oct.",
+      "dicks": [
+        {
+          "title": "No Need for Irrigation",
+          "icon": "CloudRain",
+          "description": "No rain expected, consider light artificial watering."
+        },
+        {
+          "title": "Stable Climate",
+          "icon": "Sun",
+          "description": "Weather conditions are stable, no major actions needed."
+        },
+        {
+          "title": "Check Soil Moisture",
+          "icon": "Sprout",
+          "description": "Monitor soil moisture for optimal growth."
+        }
+      ],
+      "duracao": "12.Oct. to 13.Oct.",
+      "icon": "CloudHail",
+      "status": "Light Rain"
+    },
+    {
+      "data": "13.Oct.",
+      "dicks": [
+        {
+          "title": "Adjust Irrigation",
+          "icon": "Droplet",
+          "description": "No rain expected, adjust irrigation accordingly."
+        },
+        {
+          "title": "Monitor Temperature",
+          "icon": "Thermometer",
+          "description": "Check if temperature is optimal for crop growth."
+        },
+        {
+          "title": "Stable Weather",
+          "icon": "Sun",
+          "description": "Dry weather, but no extreme conditions expected."
+        }
+      ],
+      "duracao": "13.Oct. to 14.Oct.",
+      "icon": "Tornado",
+      "status": "Dry Conditions"
+    },
+    {
+      "data": "14.Oct.",
+      "dicks": [
+        {
+          "title": "Ensure Proper Irrigation",
+          "icon": "Droplet",
+          "description": "No rain expected, monitor soil moisture."
+        },
+        {
+          "title": "Apply Pest Control",
+          "icon": "Bug",
+          "description": "Apply pest control to avoid crop damage."
+        },
+        {
+          "title": "Continuous Monitoring",
+          "icon": "Eye",
+          "description": "Keep an eye on crops and soil conditions."
+        }
+      ],
+      "duracao": "14.Oct. to 15.Oct.",
+      "icon": "Bug",
+      "status": "Pest Control Needed"
+    },
+    {
+      "data": "15.Oct.",
+      "dicks": [
+        {
+          "title": "Check Soil Moisture",
+          "icon": "Droplet",
+          "description": "No rain expected, check if irrigation is needed."
+        },
+        {
+          "title": "Monitor Climate Changes",
+          "icon": "Sun",
+          "description": "Check for any sudden weather changes."
+        },
+        {
+          "title": "Watch for Pests",
+          "icon": "Bug",
+          "description": "Pests may appear due to dry conditions."
+        }
+      ],
+      "duracao": "15.Oct. to 16.Oct.",
+      "icon": "Flame",
+      "status": "Hot and Dry"
+    },
+    {
+      "data": "16.Oct.",
+      "dicks": [
+        {
+          "title": "Light Irrigation",
+          "icon": "Droplet",
+          "description": "Stable climate, little need for additional irrigation."
+        },
+        {
+          "title": "Check Soil Conditions",
+          "icon": "Sprout",
+          "description": "Monitor soil moisture to ensure optimal growth."
+        },
+        {
+          "title": "Preventive Maintenance",
+          "icon": "Wrench",
+          "description": "Perform maintenance on irrigation systems to avoid issues."
+        }
+      ],
+      "duracao": "16.Oct. to 17.Oct.",
+      "icon": "Bug",
+      "status": "Mild Conditions"
+    }
+  ]
+}

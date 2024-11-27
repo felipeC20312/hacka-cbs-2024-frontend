@@ -1,0 +1,21 @@
+@keyframes organic-movement {
+  0% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+  25% {
+    transform: rotate(90deg) translate(10px, -10px);
+  }
+  50% {
+    transform: rotate(180deg) translate(-10px, 10px);
+  }
+  75% {
+    transform: rotate(270deg) translate(10px, 10px);
+  }
+  100% {
+    transform: rotate(360deg) translate(0, 0);
+  }
+}
+
+.rotating-moving-div {
+  animation: organic-movement 40s linear infinite;
+}

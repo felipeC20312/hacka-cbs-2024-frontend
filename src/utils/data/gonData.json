@@ -1,0 +1,149 @@
+{
+  "estado": "Goianira",
+  "plantacao": "Soja",
+  "dias": [
+    {
+      "icon": "Sem",
+      "data": "06.out.",
+      "status": "Perfeito",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Irrigação mínima necessária",
+          "icone": "",
+          "descricao": "Sem precipitação, boa temperatura para crescimento."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "07.out.",
+      "status": "Perfeito",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Monitorar umidade do solo",
+          "icone": "",
+          "descricao": "Sem precipitação, irrigação leve recomendada."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "08.out.",
+      "status": "Perfeito",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Atenção à irrigação",
+          "icone": "",
+          "descricao": "Temperatura e vento estáveis, garantir irrigação moderada."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "09.out.",
+      "status": "Perfeito",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Solo seco",
+          "icone": "",
+          "descricao": "Sem precipitação, possível necessidade de irrigação."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "10.out.",
+      "status": "Chuva intensa",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Monitorar drenagem",
+          "icone": "",
+          "descricao": "Precipitação moderada, garantir escoamento adequado."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "11.out.",
+      "status": "Chuva intensa",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Atenção à erosão do solo",
+          "icone": "",
+          "descricao": "Chuvas constantes, verificar possíveis erosões."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "12.out.",
+      "status": "Tempestade",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Fortes chuvas",
+          "icone": "",
+          "descricao": "Alto risco de danos às plantações, proteger culturas sensíveis."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "13.out.",
+      "status": "Chuva intensa",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Monitorar acúmulo de água",
+          "icone": "",
+          "descricao": "Precipitação constante, verificar drenagem das áreas."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "14.out.",
+      "status": "Chuva intensa",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Atenção à umidade",
+          "icone": "",
+          "descricao": "Chuvas prolongadas podem saturar o solo."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "15.out.",
+      "status": "Perfeito",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Irrigação necessária",
+          "icone": "",
+          "descricao": "Sem chuva prevista, ajustar irrigação."
+        }
+      ]
+    },
+    {
+      "icon": "Sem",
+      "data": "16.out.",
+      "status": "Chuva intensa",
+      "duracao": "06.out. a 16.out.",
+      "dicas": [
+        {
+          "titulo": "Precipitação moderada",
+          "icone": "",
+          "descricao": "Verificar níveis de umidade e garantir escoamento adequado."
+        }
+      ]
+    }
+  ]
+}

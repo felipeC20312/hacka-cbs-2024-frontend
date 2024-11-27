@@ -1,0 +1,44 @@
+{
+  "translation": {
+    "fieldLabels": {
+      "selectCountry": "Selecione um país",
+      "selectState": "Selecione um estado",
+      "Props": "Selecione as culturas que você trabalha"
+    },
+    "buttons": {
+      "continue": "Continuar",
+      "filter": "Filtrar",
+      "addProp": "Adicionar Cultura"
+    },
+    "imagesAltText": {
+      "eventImg": "Imagem relacionada ao evento climático",
+      "orusLogo": "Logo do aplicativo web Orus AI"
+    },
+    "firstPage": {
+      "title": "Pronto para o cultivo inteligente?",
+      "subtitle": "Indique quais são os dados da sua lavoura:",
+      "textInputs": {
+        "country": {
+          "title": "País",
+          "subtitle": "Adicione um País"
+        },
+        "state": {
+          "title": "Estado",
+          "subtitle": "Adicione um Estado"
+        },
+        "crops": {
+          "title": "Culturas",
+          "subtitle": "Selecione as culturas com que você trabalha"
+        }
+      }
+    },
+    "brand": {
+      "name": "Orus"
+    },
+    "toastMensage": {
+      "title": "Essa é uma Aplicação Demo",
+      "text": "Essa aplicação é uma demo para apresentar nossa interface, par fazer requisições reais para o nosso modelo de IA, clique no botão abaixo.",
+      "button": "Orus AI"
+    }
+  }
+}

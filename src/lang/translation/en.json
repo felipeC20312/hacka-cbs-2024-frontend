@@ -1,0 +1,44 @@
+{
+  "translation": {
+    "fieldLabels": {
+      "selectCountry": "Input a Country",
+      "selectState": "Input a State or Province",
+      "Props": "Slect the crops you work with"
+    },
+    "buttons": {
+      "continue": "Continue",
+      "filter": "Filter",
+      "addProp": "Add Crop"
+    },
+    "imagesAltText": {
+      "eventImg": "Imagem relacionada ao evento climático",
+      "orusLogo": "Web app Orus AI logo"
+    },
+    "firstPage": {
+      "title": "Ready to smart farming?",
+      "subtitle": "Set your data crop:",
+      "textInputs": {
+        "map": {
+          "title": "Select a Location"
+        },
+        "state": {
+          "title": "Terrain Size",
+          "subtitle": "Select the terrain size area"
+        },
+        "crops": {
+          "title": "Crops",
+          "subtitle": "Select the crops you work with"
+        }
+      }
+    },
+    "brand": {
+      "name": "Orus",
+      "nameAlt": "Orus AI"
+    },
+    "toastMensage": {
+      "title": "This is a Demo Aplication",
+      "text": "This aplication is a demo to showcase our moder interface, to make real requests for our IA model please click on the button try it now.",
+      "button": "Try Orus AI now!"
+    }
+  }
+}
