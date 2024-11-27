@@ -6,7 +6,7 @@ const FirstPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='flex flex-col p-3 w-dvw min-h-dvh items-center bg-[#1F1F1F]'>
+    <div className='flex flex-col p-3 w-dvw min-h-dvh items-center bg-background'>
       <div className='flex w-full my-[50px] gap-4 items-center justify-center text-white text-[31px]'>
         <img src={images.img_logo} alt='' />
         <p>{t('brand.name')}</p>
