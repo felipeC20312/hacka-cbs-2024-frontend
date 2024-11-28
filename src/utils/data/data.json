@@ -1,67 +1,71 @@
-[
-  {
-    "analysis_type": "temperature",
-    "graph_data": {
-      "labels": ["January", "February", "March", "April"],
-      "datasets": [
-        {
-          "label": "Average Temperature (°C)",
-          "data": [22, 24, 26, 28]
-        }
-      ]
+{
+  "business_name": "Teste LTDA",
+  "business_type": "Metalurgica",
+  "insights": [
+    {
+      "analysis_type": "temperature",
+      "graph_data": {
+        "labels": ["January", "February", "March", "April"],
+        "datasets": [
+          {
+            "label": "Average Temperature (°C)",
+            "data": [22, 24, 26, 28]
+          }
+        ]
+      },
+      "insight_tip": "The average temperature has been rising steadily over the past months, indicating a potential heatwave during the upcoming summer season. Consider implementing cooling strategies."
     },
-    "insights": "The average temperature has been rising steadily over the past months, indicating a potential heatwave during the upcoming summer season. Consider implementing cooling strategies."
-  },
-  {
-    "analysis_type": "humidity",
-    "graph_data": {
-      "labels": ["January", "February", "March", "April"],
-      "datasets": [
-        {
-          "label": "Relative Humidity (%)",
-          "data": [75, 70, 65, 60]
-        }
-      ]
+    {
+      "analysis_type": "humidity",
+      "graph_data": {
+        "labels": ["January", "February", "March", "April"],
+        "datasets": [
+          {
+            "label": "Relative Humidity (%)",
+            "data": [75, 70, 65, 60]
+          }
+        ]
+      },
+      "insight_tip": "Humidity levels have been declining, which could lead to drier conditions and potential challenges for agriculture. Monitoring water resources closely is recommended."
     },
-    "insights": "Humidity levels have been declining, which could lead to drier conditions and potential challenges for agriculture. Monitoring water resources closely is recommended."
-  },
-  {
-    "analysis_type": "precipitation",
-    "graph_data": {
-      "labels": ["January", "February", "March", "April"],
-      "datasets": [
-        {
-          "label": "Precipitation (mm)",
-          "data": [100, 80, 50, 20]
-        }
-      ]
+    {
+      "analysis_type": "precipitation",
+      "graph_data": {
+        "labels": ["January", "February", "March", "April"],
+        "datasets": [
+          {
+            "label": "Precipitation (mm)",
+            "data": [100, 80, 50, 20]
+          }
+        ]
+      },
+      "insight_tip": "There has been a significant decrease in precipitation, which could indicate a dry spell or potential drought. It's important to optimize water usage in affected regions."
     },
-    "insights": "There has been a significant decrease in precipitation, which could indicate a dry spell or potential drought. It's important to optimize water usage in affected regions."
-  },
-  {
-    "analysis_type": "evapotranspiration",
-    "graph_data": {
-      "labels": ["January", "February", "March", "April"],
-      "datasets": [
-        {
-          "label": "Evapotranspiration (mm)",
-          "data": [50, 60, 65, 70]
-        }
-      ]
+    {
+      "analysis_type": "evapotranspiration",
+      "graph_data": {
+        "labels": ["January", "February", "March", "April"],
+        "datasets": [
+          {
+            "label": "Evapotranspiration (mm)",
+            "data": [50, 60, 65, 70]
+          }
+        ]
+      },
+      "insight_tip": "The evapotranspiration rates have been increasing, suggesting that crops may require more irrigation in the upcoming months. Adjust irrigation schedules accordingly."
     },
-    "insights": "The evapotranspiration rates have been increasing, suggesting that crops may require more irrigation in the upcoming months. Adjust irrigation schedules accordingly."
-  },
-  {
-    "analysis_type": "uv_index",
-    "graph_data": {
-      "labels": ["January", "February", "March", "April"],
-      "datasets": [
-        {
-          "label": "UV Index",
-          "data": [5, 6, 7, 8]
-        }
-      ]
-    },
-    "insights": "UV levels are rising, indicating increased exposure to harmful radiation. It is recommended to take protective measures, such as using sunscreen and limiting direct exposure during peak hours."
-  }
-]
+    {
+      "analysis_type": "uv_index",
+      "graph_data": {
+        "labels": ["January", "February", "March", "April"],
+        "datasets": [
+          {
+            "label": "UV Index",
+            "data": [5, 6, 7, 8]
+          }
+        ]
+      },
+      "insight_tip": "UV levels are rising, indicating increased exposure to harmful radiation. It is recommended to take protective measures, such as using sunscreen and limiting direct exposure during peak hours."
+    }
+  ]
+}

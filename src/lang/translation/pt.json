@@ -1,44 +1,52 @@
 {
   "translation": {
-    "fieldLabels": {
-      "selectCountry": "Selecione um país",
-      "selectState": "Selecione um estado",
-      "Props": "Selecione as culturas que você trabalha"
-    },
     "buttons": {
       "continue": "Continuar",
       "filter": "Filtrar",
-      "addProp": "Adicionar Cultura"
-    },
-    "imagesAltText": {
-      "eventImg": "Imagem relacionada ao evento climático",
-      "orusLogo": "Logo do aplicativo web Orus AI"
+      "dashboard_create": "Criar meu dashboard"
     },
     "firstPage": {
-      "title": "Pronto para o cultivo inteligente?",
-      "subtitle": "Indique quais são os dados da sua lavoura:",
-      "textInputs": {
-        "country": {
-          "title": "País",
-          "subtitle": "Adicione um País"
-        },
-        "state": {
-          "title": "Estado",
-          "subtitle": "Adicione um Estado"
-        },
-        "crops": {
-          "title": "Culturas",
-          "subtitle": "Selecione as culturas com que você trabalha"
+      "title": "Clima\nEconomia\nSustentabilidade",
+      "custom_form_page1": {
+        "title": "Informe seus dados",
+        "subtitle": "Um dashboard personalizado em segungos!",
+        "formFieldLabels": {
+          "business_name": {
+            "title": "Nome da instituição",
+            "subtitle": "Nome da Empresa"
+          },
+          "business_type": {
+            "title": "Setor",
+            "subtitle": "Selecione um setor"
+          },
+          "location": {
+            "title": "Localização",
+            "subtitle": "Selecione as culturas com que você trabalha"
+          }
+        }
+      },
+      "custom_form_page2": {
+        "title": "Informe suas prioridades",
+        "subtitle": "Personalizaremos o dashboard de acordo com as suas necessidades",
+        "formFieldLabels": {
+          "analysis_type": {
+            "title": "Dados de interesse",
+            "subtitle": "Selecione quais dados deseja analisar"
+          },
+          "search_objective": {
+            "title": "Objetivos de busca",
+            "subtitle": "Nos conte mais sobre os seus objetivos de busca"
+          },
+          "main_problems": {
+            "title": "Principais problemas enfrentados",
+            "subtitle": "Nos conte mais sobre os problemas que você enfrenta em relação ao clima e sustentabilidade."
+          }
         }
       }
     },
     "brand": {
-      "name": "Orus"
-    },
-    "toastMensage": {
-      "title": "Essa é uma Aplicação Demo",
-      "text": "Essa aplicação é uma demo para apresentar nossa interface, par fazer requisições reais para o nosso modelo de IA, clique no botão abaixo.",
-      "button": "Orus AI"
+      "name": "Copérnico",
+      "name_alt": "Copérnico IA"
     }
   }
 }

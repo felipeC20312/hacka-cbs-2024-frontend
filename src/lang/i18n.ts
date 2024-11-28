@@ -6,7 +6,7 @@ import en from './translation/en.json';
 
 i18n.use(initReactI18next).init({
   compatibilityJSON: 'v3',
-  lng: 'en',
+  lng: 'pt',
   resources: {
     en: en,
     pt: pt,

@@ -12,7 +12,7 @@
     },
     "imagesAltText": {
       "eventImg": "Imagem relacionada ao evento climático",
-      "orusLogo": "Web app Orus AI logo"
+      "copernicologo": "Web app Copérnico AI logo"
     },
     "firstPage": {
       "title": "Ready to smart farming?",
@@ -32,13 +32,13 @@
       }
     },
     "brand": {
-      "name": "Orus",
-      "nameAlt": "Orus AI"
+      "name": "Copérnico",
+      "nameAlt": "Copérnico AI"
     },
     "toastMensage": {
       "title": "This is a Demo Aplication",
       "text": "This aplication is a demo to showcase our moder interface, to make real requests for our IA model please click on the button try it now.",
-      "button": "Try Orus AI now!"
+      "button": "Try Copérnico AI now!"
     }
   }
 }

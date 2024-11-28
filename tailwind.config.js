@@ -23,7 +23,7 @@ export default {
         'text-third': 'var(--color-text-third)',
         'icon-main': 'var(--color-icon-main)',
         'icon-second': 'var(--color-icon-second)',
-        'icon-third': 'var(--color-icon-third)',
+        error: 'var(--color-error)',
       },
     },
   },

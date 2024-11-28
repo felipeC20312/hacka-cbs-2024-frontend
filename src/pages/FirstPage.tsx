@@ -1,21 +1,31 @@
+import CustomForm from '@/components/CustomForm/CustomForm';
 import { images } from '@/assets/utils/getImgs';
-import CustomForm from '@/components/CustomForm';
 import { useTranslation } from 'react-i18next';
 
 const FirstPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='flex flex-col p-3 w-dvw min-h-dvh items-center bg-background'>
-      <div className='flex w-full my-[50px] gap-4 items-center justify-center text-white text-[31px]'>
-        <img src={images.img_logo} alt='' />
-        <p>{t('brand.name')}</p>
-      </div>
-      <div className='self-start w-[60%] text-white text-[35px] font-medium'>
-        <p>{t('firstPage.title')}</p>
-      </div>
-      <div className='flex flex-col w-full self-start mt-10 gap-[16px] text-white text-[20px] text-left font-normal'>
-        <p>{t('firstPage.subtitle')}</p>
+    <div className='flex flex-col p-3 w-dvw min-h-dvh items-center justify-center bg-background'>
+      <div className='bg-white rounded-[20px] overflow-hidden max-w-[660px] min-w-[350px]'>
+        <div
+          className='flex flex-col box-border bg-main h-[333px] p-4'
+          style={{
+            backgroundImage: `url(${images.img_background_effects})`, // Usando a variável de caminho da imagem
+            backgroundRepeat: 'repeat',
+            backgroundPosition: 'top',
+            backgroundSize: 'cover',
+          }}>
+          <div className='flex w-full gap-4 justify-center text-white text-[30px] font-light mt-[60px] mb-[40px]'>
+            <div className='aspect-square w-[40px]'>
+              <img src={images.img_logo_base} alt='' />
+            </div>
+            <p>{t('brand.name')}</p>
+          </div>
+          <div className='text-white text-[35px] self-start font-medium'>
+            <p>{t('firstPage.title')}</p>
+          </div>
+        </div>
         <CustomForm />
       </div>
     </div>
