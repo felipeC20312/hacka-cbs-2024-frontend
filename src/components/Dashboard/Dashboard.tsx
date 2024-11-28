@@ -8,6 +8,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
+import CustomIconsLucid from '../CustomIconsLucid';
 
 interface DataSet {
   label: string;
@@ -16,7 +17,7 @@ interface DataSet {
 
 interface GraphData {
   labels: string[];
-  datasets: DataSet[];
+  datasets: DataSet;
 }
 
 interface AnalysisData {
@@ -35,9 +36,7 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
   const transformGraphData = (graphData: GraphData) => {
     return graphData.labels.map((label, index) => {
       const dataPoint: Record<string, any> = { name: label };
-      graphData.datasets.forEach((dataset) => {
-        dataPoint[dataset.label] = dataset.data[index];
-      });
+      dataPoint[graphData.datasets.label] = graphData.datasets.data[index];
       return dataPoint;
     });
   };
@@ -52,7 +51,18 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
           <div key={insightIndex} className='flex flex-col mb-4'>
             <div>{title}</div>
             <div className='border-border border-[1px] rounded-[16px] p-3 h-fit w-full'>
-              <div>Analise hidrica</div>
+              <div className='flex mb-5 gap-2 items-center'>
+                <div className='flex items-center justify-center rounded-full w-8 h-8 bg-second'>
+                  <CustomIconsLucid
+                    iconName='Waves'
+                    color='#ffffff'
+                    size={18}
+                  />
+                </div>
+                <p className='font-medium text-2 text-[16px]'>
+                  {insight.analysis_type}
+                </p>
+              </div>
               <div className='h-[300px]'>
                 <ResponsiveContainer width='100%' height='100%'>
                   <LineChart data={chartData}>
@@ -60,28 +70,36 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
                     <XAxis dataKey='name' />
                     <YAxis />
                     <Tooltip />
-                    <Legend />
-                    {insight.graph_data.datasets.map((dataset) => (
-                      <Line
-                        key={dataset.label}
-                        type='monotone'
-                        dataKey={dataset.label}
-                        stroke='#3f75ff'
-                      />
-                    ))}
+                    <Line
+                      key={insight.graph_data.datasets.label}
+                      type='monotone'
+                      dataKey={insight.graph_data.datasets.label}
+                      stroke='#3f75ff'
+                    />
                   </LineChart>
                 </ResponsiveContainer>
               </div>
-              <div>Tendencida de aumento de custo hidrico</div>
-              <div />
+              <div className='flex border-[1px] border-border rounded-full w-full h-[40px] items-center box-border p-1 gap-2'>
+                <div className='flex h-full aspect-square bg-icon-second items-center justify-center rounded-full'>
+                  <CustomIconsLucid iconName='Info' color='#ffffff' size={18} />
+                </div>
+                {insight.graph_data.datasets.label}
+              </div>
+              <div className='border-b-[1px] my-4 border-border' />
               <div>
-                <div></div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Commodi et, accusantium nam debitis natus porro praesentium?
-                  Voluptatem dolor a sapiente reprehenderit accusamus culpa? Id
-                  nesciunt at, eaque tempora modi maiores?
-                </p>
+                <p className='text-[16px] font-medium mb-1'>@Copernico</p>
+                <div className='flex gap-1 mb-2'>
+                  <CustomIconsLucid
+                    iconName='CalendarDays'
+                    color='var(--color-text-second)'
+                    size={20}
+                  />
+                  <div className='flex text-text-second'>
+                    <p>Atualizado em</p>
+                    {Date.now()}
+                  </div>
+                </div>
+                <p>{insight.insight_tip}</p>
               </div>
             </div>
           </div>

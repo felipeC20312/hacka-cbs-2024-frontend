@@ -11,8 +11,8 @@ const FirstPage = () => {
         <div
           className='flex flex-col box-border bg-main h-[333px] p-4'
           style={{
-            backgroundImage: `url(${images.img_background_effects})`, // Usando a variável de caminho da imagem
-            backgroundRepeat: 'repeat',
+            backgroundImage: `url(${images.img_background_decor})`, // Usando a variável de caminho da imagem
+            backgroundRepeat: 'norepeat',
             backgroundPosition: 'top',
             backgroundSize: 'cover',
           }}>

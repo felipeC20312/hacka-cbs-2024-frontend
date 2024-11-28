@@ -10,7 +10,7 @@ interface DataSet {
 
 interface GraphData {
   labels: string[];
-  datasets: DataSet[];
+  datasets: DataSet;
 }
 
 interface AnalysisData {
@@ -42,10 +42,10 @@ const HomePage = () => {
         <div
           className='flex flex-col justify-center items-center box-border bg-main w-full h-[145px] p-4'
           style={{
-            backgroundImage: `url(${images.img_background_effects})`,
-            backgroundRepeat: 'repeat',
+            backgroundImage: `url(${images.img_background_decor})`,
+            backgroundRepeat: 'norepeat',
             backgroundPosition: 'top',
-            backgroundSize: 'cover',
+            backgroundSize: 'fill',
           }}>
           <div className='flex w-full h-[60px] rounded-full items-center bg-white text-text-main text-[30px] font-light gap-4 p-2 box-border'>
             <div className='left-2 flex w-12 h-12 bg-main rounded-full justify-center items-center'>
@@ -59,7 +59,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        {data ? <Dashboard insights={data.insights} title='' /> : null}
+        {data ? <Dashboard insights={data.insights} title={''} /> : null}
       </div>
     </div>
   );
