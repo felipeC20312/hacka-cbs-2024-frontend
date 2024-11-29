@@ -10,8 +10,13 @@ export default {
         sm: 'calc(var(--radius) - 4px)',
       },
 
+      screens: {
+        mobile: { max: '375px' },
+      },
+
       colors: {
         background: 'var(--color-bg)',
+        'background-form': 'var(--color-bg-form)',
         'background-highlighted': 'var(--color-bg-highlighted)',
         main: 'var(--color-main)',
         second: 'var(--color-second)',

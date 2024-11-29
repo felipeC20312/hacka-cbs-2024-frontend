@@ -158,7 +158,7 @@ const Step1 = () => {
                       <SelectContent className='border-border bg-white rounded-[8px]'>
                         <SelectItem value='textil'>Têxtil</SelectItem>
                         <SelectItem value='mineracao'>Mineração</SelectItem>
-                        <SelectItem value='mineracao'>Alimentícia</SelectItem>
+                        <SelectItem value='alimenticia'>Alimentícia</SelectItem>
                       </SelectContent>
                     </Select>
                   </FormControl>

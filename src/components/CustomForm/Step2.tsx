@@ -18,7 +18,6 @@ import { useNavigate } from 'react-router-dom';
 import { useFormContext } from './CustomFormContext';
 import { Checkbox } from '../ui/checkbox';
 import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover';
-import { Button } from '../ui/button';
 import { LucideArrowRight } from 'lucide-react';
 
 const formSchema = z.object({
@@ -116,14 +115,24 @@ const Step2 = () => {
                     <PopoverContent className='w-[200px] border-border bg-white rounded-[8px] p-4'>
                       <div className='flex flex-col gap-2'>
                         {[
-                          { label: 'Temperatura', value: 'temperature' },
-                          { label: 'Humidade', value: 'humidity' },
-                          { label: 'Precipitação', value: 'precipitation' },
                           {
-                            label: 'Evapotranspiração',
-                            value: 'evapotranspiration',
+                            label: 'Tendência do Custo Hídrico',
+                            value: 'Tendência do Custo Hídrico',
                           },
-                          { label: 'Índice UV', value: 'uv_index' },
+                          {
+                            label: 'Eficiência Energética Solar',
+                            value: 'Eficiência Energética Solar',
+                          },
+                          {
+                            label:
+                              'Tendência de Risco Climático para Infraestruturas',
+                            value:
+                              'Tendência de Risco Climático para Infraestruturas',
+                          },
+                          {
+                            label: 'Previsão da Qualidade do Ar',
+                            value: 'Previsão da Qualidade do Ar',
+                          },
                         ].map((item) => (
                           <div
                             key={item.value}

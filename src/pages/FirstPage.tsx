@@ -6,10 +6,10 @@ const FirstPage = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='flex flex-col p-3 w-dvw min-h-dvh items-center justify-center bg-background'>
-      <div className='bg-white rounded-[20px] overflow-hidden max-w-[660px] min-w-[350px]'>
+    <div className='flex flex-col p-3 w-dvw min-h-dvh items-center justify-center bg-background mobile:p-0'>
+      <div className='bg-background-form rounded-[20px] overflow-hidden max-w-[660px] w-full min-w-[350px] mobile:rounded-none mobile:min-h-dvh'>
         <div
-          className='flex flex-col box-border bg-main h-[333px] p-4'
+          className='flex flex-col box-border bg-main h-[333px] p-4 rounded-b-[20px]'
           style={{
             backgroundImage: `url(${images.img_background_decor})`, // Usando a variável de caminho da imagem
             backgroundRepeat: 'norepeat',

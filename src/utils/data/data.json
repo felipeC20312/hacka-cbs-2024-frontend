@@ -1,61 +1,62 @@
 {
   "business_name": "Teste LTDA",
-  "business_type": "Metalurgica",
+  "business_type": "têxtil",
   "insights": [
     {
-      "analysis_type": "temperature",
+      "analysis_type": "Tendência do Custo Hídrico",
       "graph_data": {
-        "labels": ["January", "February", "March", "April"],
         "datasets": {
-          "label": "Average Temperature (°C)",
-          "data": [22, 24, 26, 28]
-        }
+          "data": [
+            13.76214174473276, 15.664442526854039, 18.797331032224847,
+            22.556797238669816
+          ],
+          "label": "Tendência do Custo Hídrico"
+        },
+        "labels": ["January", "February", "March", "April"]
       },
-      "insight_tip": "The average temperature has been rising steadily over the past months, indicating a potential heatwave during the upcoming summer season. Consider implementing cooling strategies."
+      "insight_tip": "Implemente imediatamente medidas de redução de consumo de água, focando em reuso e eficiência.  Explore fontes alternativas de energia e tecnologias de baixo consumo para mitigar aumentos de custos previstos."
     },
     {
-      "analysis_type": "humidity",
+      "analysis_type": "Eficiência Energética Solar",
       "graph_data": {
-        "labels": ["January", "February", "March", "April"],
         "datasets": {
-          "label": "Relative Humidity (%)",
-          "data": [75, 70, 65, 60]
-        }
+          "data": [
+            15.506372233893678, 15.695998546712595, 15.505851586587326,
+            16.83393553212621
+          ],
+          "label": "Eficiência Energética Solar"
+        },
+        "labels": ["January", "February", "March", "April"]
       },
-      "insight_tip": "Humidity levels have been declining, which could lead to drier conditions and potential challenges for agriculture. Monitoring water resources closely is recommended."
+      "insight_tip": "Invista em geração solar fotovoltaica para reduzir custos de energia, considerando a alta demanda nos próximos meses.  Implemente simultaneamente medidas de economia de água, priorizando soluções eficientes e de baixo custo."
     },
     {
-      "analysis_type": "precipitation",
+      "analysis_type": "Tendência de Risco Climático para Infraestruturas",
       "graph_data": {
-        "labels": ["January", "February", "March", "April"],
         "datasets": {
-          "label": "Precipitation (mm)",
-          "data": [100, 80, 50, 20]
-        }
+          "data": [
+            12.031151519559682, 14.045500541127257, 13.265731049794116,
+            13.506575578588626
+          ],
+          "label": "Infrastructure Climate Risk Trend"
+        },
+        "labels": ["January", "February", "March", "April"]
       },
-      "insight_tip": "There has been a significant decrease in precipitation, which could indicate a dry spell or potential drought. It's important to optimize water usage in affected regions."
+      "insight_tip": "Invista em tecnologias de eficiência hídrica e energética (e.g., reuso de água, energia solar).  Monitore o consumo e adapte as operações conforme as previsões de risco climático (alta nos próximos meses)."
     },
     {
-      "analysis_type": "evapotranspiration",
+      "analysis_type": "Previsão da Qualidade do Ar",
       "graph_data": {
-        "labels": ["January", "February", "March", "April"],
         "datasets": {
-          "label": "Evapotranspiration (mm)",
-          "data": [50, 60, 65, 70]
-        }
+          "data": [
+            1.7820036412639992, 2.0955893469997955, 2.495469229372886,
+            3.1523143412168464
+          ],
+          "label": "Previsão da Qualidade do Ar"
+        },
+        "labels": ["January", "February", "March", "April"]
       },
-      "insight_tip": "The evapotranspiration rates have been increasing, suggesting that crops may require more irrigation in the upcoming months. Adjust irrigation schedules accordingly."
-    },
-    {
-      "analysis_type": "uv_index",
-      "graph_data": {
-        "labels": ["January", "February", "March", "April"],
-        "datasets": {
-          "label": "UV Index",
-          "data": [5, 6, 7, 8]
-        }
-      },
-      "insight_tip": "UV levels are rising, indicating increased exposure to harmful radiation. It is recommended to take protective measures, such as using sunscreen and limiting direct exposure during peak hours."
+      "insight_tip": "Analise a correlação entre a previsão de qualidade do ar (aumento nos próximos 4 meses) e o consumo de energiaágua.  Invista em tecnologias de eficiência hídrica e energética, priorizando soluções resilientes à escassez hídrica."
     }
   ]
 }

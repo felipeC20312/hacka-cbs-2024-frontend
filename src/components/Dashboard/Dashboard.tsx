@@ -5,10 +5,12 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from 'recharts';
 import CustomIconsLucid from '../CustomIconsLucid';
+
+import { format } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
 
 interface DataSet {
   label: string;
@@ -32,7 +34,6 @@ interface DashboardProps {
 }
 
 const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
-  // Função para transformar os dados
   const transformGraphData = (graphData: GraphData) => {
     return graphData.labels.map((label, index) => {
       const dataPoint: Record<string, any> = { name: label };
@@ -41,8 +42,12 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
     });
   };
 
+  const formattedDate = format(new Date(), "dd 'de' MMM 'de' yyyy", {
+    locale: ptBR,
+  });
+
   return (
-    <div className='w-full h-200px p-4 bg-white'>
+    <div className='w-full h-200px p-4 bg-background-form'>
       {insights.map((insight, insightIndex) => {
         // Transformando os dados no formato necessário para o LineChart
         const chartData = transformGraphData(insight.graph_data);
@@ -50,7 +55,7 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
         return (
           <div key={insightIndex} className='flex flex-col mb-4'>
             <div>{title}</div>
-            <div className='border-border border-[1px] rounded-[16px] p-3 h-fit w-full'>
+            <div className='border-border border-[1px] rounded-[16px] p-3 h-fit w-full bg-background-highlighted'>
               <div className='flex mb-5 gap-2 items-center'>
                 <div className='flex items-center justify-center rounded-full w-8 h-8 bg-second'>
                   <CustomIconsLucid
@@ -63,12 +68,12 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
                   {insight.analysis_type}
                 </p>
               </div>
-              <div className='h-[300px]'>
+              <div className='h-[300px] mb-2'>
                 <ResponsiveContainer width='100%' height='100%'>
                   <LineChart data={chartData}>
                     <CartesianGrid strokeDasharray='1 1' />
                     <XAxis dataKey='name' />
-                    <YAxis />
+                    <YAxis width={30} />
                     <Tooltip />
                     <Line
                       key={insight.graph_data.datasets.label}
@@ -94,9 +99,10 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
                     color='var(--color-text-second)'
                     size={20}
                   />
-                  <div className='flex text-text-second'>
-                    <p>Atualizado em</p>
-                    {Date.now()}
+                  <div>
+                    <p className='flex text-text-second'>
+                      Atualizado em {formattedDate}
+                    </p>
                   </div>
                 </div>
                 <p>{insight.insight_tip}</p>
