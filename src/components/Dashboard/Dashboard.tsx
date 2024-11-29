@@ -49,7 +49,6 @@ const Dashboard: React.FC<DashboardProps> = ({ insights, title }) => {
   return (
     <div className='w-full h-200px p-4 bg-background-form'>
       {insights.map((insight, insightIndex) => {
-        // Transformando os dados no formato necessário para o LineChart
         const chartData = transformGraphData(insight.graph_data);
 
         return (

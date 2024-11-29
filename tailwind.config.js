@@ -11,7 +11,7 @@ export default {
       },
 
       screens: {
-        mobile: { max: '375px' },
+        mobile: { max: '425px' },
       },
 
       colors: {

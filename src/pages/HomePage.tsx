@@ -37,25 +37,25 @@ const HomePage = () => {
   const getData = async () => {
     setLoading(true);
     try {
-      const formRequest = localStorage.getItem('formData');
-      // const formRequest = {
-      //   analysis_type: [
-      //     'Tendência do Custo Hídrico',
-      //     'Eficiência Energética Solar',
-      //     'Tendência de Risco Climático para Infraestruturas',
-      //     'Previsão da Qualidade do Ar',
-      //   ],
-      //   business_name: 'Teste LTDA',
-      //   business_type: 'têxtil',
-      //   location: {
-      //     latitude: -14.819536302850208,
-      //     longitude: -57.457759772352226,
-      //   },
-      //   main_problems:
-      //     'Escassez hídrica em períodos críticos e altos custos de energia elétrica.',
-      //   search_objective:
-      //     'Reduzir custos operacionais relacionados ao consumo de água e energia.',
-      // };
+      // const formRequest = localStorage.getItem('formData');
+      const formRequest = {
+        analysis_type: [
+          'Tendência do Custo Hídrico',
+          'Eficiência Energética Solar',
+          'Tendência de Risco Climático para Infraestruturas',
+          'Previsão da Qualidade do Ar',
+        ],
+        business_name: 'Teste LTDA',
+        business_type: 'têxtil',
+        location: {
+          latitude: -14.819536302850208,
+          longitude: -57.457759772352226,
+        },
+        main_problems:
+          'Escassez hídrica em períodos críticos e altos custos de energia elétrica.',
+        search_objective:
+          'Reduzir custos operacionais relacionados ao consumo de água e energia.',
+      };
       const response = await api.post(
         '/process_weather_forecasting',
         formRequest
